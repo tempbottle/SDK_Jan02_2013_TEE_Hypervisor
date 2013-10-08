@@ -100,6 +100,7 @@ enum TEEC_shared_mem_flags {
 * @brief Param type constants
 *
 */
+//enum 이 자동으로 증가시켜준다.
 enum TEEC_param_type {
 /*! The Parameter is not used. */
     TEEC_NONE = 0x1,

@@ -117,6 +117,7 @@ char* TEEC_GetError(int error, int returnOrigin)
 * TEEC_SUCCESS: The initialization was successful. \n
 * TEEC_ERROR_*: An implementation-defined error code for any other error.
 */
+// 디바이스 드라이버 오픈
 TEEC_Result TEEC_InitializeContext(
     const char*   name,
     TEEC_Context* context)
@@ -138,6 +139,7 @@ TEEC_Result TEEC_InitializeContext(
     else {
         strcpy(temp_name, name);
     }
+	// 디바이스 드라이버 오픈
     ret = open(temp_name, O_RDWR); 
     if( ret == -1){
         perror("TEEC_InitializeContext : device open failed\n");
@@ -224,6 +226,7 @@ TEEC_Result TEEC_AllocateSharedMemory(
 
     mmap_flags = PROT_READ | PROT_WRITE;
 
+	// start (일반적으로 0을 사용), size, 보호설정, flag, device file, offset
     sharedMem->buffer = mmap(0, sharedMem->size,
                         mmap_flags , MAP_SHARED,
                         context->fd, 0);
@@ -348,6 +351,7 @@ void TEEC_ReleaseSharedMemory(
 TEEC_Result TEEC_OpenSession (
     TEEC_Context*    context,
     TEEC_Session*    session,
+	// 서비스 아이디
     const TEEC_UUID* destination,
     uint32_t         connectionMethod,
     const void*      connectionData,
@@ -397,6 +401,7 @@ valid connection data\n");
         }
     }
 
+	// 버츄얼 키보드
     ses_open.service_id = *destination;
 
     ret = ioctl(context->fd,
@@ -521,8 +526,10 @@ TEEC_Result TEEC_InvokeCommand(
         param_types[1] = (operation->paramTypes >> 4) & 0xf;        
         param_types[2] = (operation->paramTypes >> 8) & 0xf;        
         param_types[3] = (operation->paramTypes >> 12) & 0xf;        
+		// 0001 0001 0001 0001
 
         for(param_count = 0; param_count < 4; param_count++) {
+			// 우리는 NONE. 안들어감.
             if( (param_types[param_count] == TEEC_VALUE_INPUT) ||
                 (param_types[param_count] == TEEC_VALUE_INOUT) ||
                 (param_types[param_count] == TEEC_VALUE_OUTPUT)) {
@@ -874,6 +881,9 @@ encoding data in client driver failed\n");
     }
 
     /* Invoke the command */
+	// OTZ_CLIENT_IOCTL_SEND_CMD_REQ 커멘드로 send 를 하라..
+	// enc 에 있는 커맨드를.... 디바이스 드라이버쪽으로
+	// 대기 한다.
     ret = ioctl(session->device->fd,
                     OTZ_CLIENT_IOCTL_SEND_CMD_REQ, &enc);
 
@@ -998,6 +1008,7 @@ decoding data in client driver failed\n");
     }
 operation_release:
     /* release the operation */
+	// 마무리 짓는다?
     rel_ret = ioctl(session->device->fd, 
                     OTZ_CLIENT_IOCTL_OPERATION_RELEASE, &enc);
     if (rel_ret){

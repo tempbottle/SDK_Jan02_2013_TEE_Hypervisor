@@ -167,6 +167,7 @@ int main(int argc, char* argv[])
     operation.params[2].memref.size = 0;
 */
 #if 1
+	// OTZ_ECHO_CMD_ID_SEND_CMD_SHARED_BUF 메모리를 할당하고 난 후 TEE 에 알려주는 CMD
     result = TEEC_InvokeCommand(
                  &session,
                  OTZ_ECHO_CMD_ID_SEND_CMD_SHARED_BUF,

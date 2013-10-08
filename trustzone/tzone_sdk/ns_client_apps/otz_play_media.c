@@ -41,19 +41,23 @@
 *
 * @return 
 */
+// 논 시큐어 어플리케이션
 int main(void)
 {
+	// 선언
     TEEC_Context context;
     TEEC_Session session;
     TEEC_Operation operation;
 
     TEEC_Result result;
 
+	// 서비스 아이디
     TEEC_UUID svc_id = OTZ_SVC_VIRTUAL_KEYBOARD;
 
     uint32_t len;
     char    testData[256];
 
+	// 디바이스 드라이버 오픈 및 컨택스트 초기화
     result = TEEC_InitializeContext(
                NULL,
                &context);
@@ -62,10 +66,12 @@ int main(void)
         goto cleanup_1;
     }
 
+	// tz driver 를 통해서 세션을 연다.
     result = TEEC_OpenSession(
                 &context,
                 &session,
                 &svc_id,
+				// PUBLIC 은 체크를 안하는듯.
                 TEEC_LOGIN_PUBLIC,
                 NULL,
                 NULL,
@@ -77,12 +83,14 @@ int main(void)
 
     printf("session id 0x%x\n", session.session_id);
 
+	// 0001 0001 0001 0001
     operation.paramTypes = TEEC_PARAM_TYPES(
         TEEC_NONE,
         TEEC_NONE,
         TEEC_NONE,
         TEEC_NONE);
     
+	// 나중에 보면안다. 오퍼레이션 취소 확인용
     operation.started = 1;
 
     result = TEEC_InvokeCommand(

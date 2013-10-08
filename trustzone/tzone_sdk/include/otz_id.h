@@ -48,6 +48,7 @@ enum otz_enc_data_type {
 /**
  * @brief Service identifiers
  */
+// 서비스 아이디
 enum otz_svc_id {
     OTZ_SVC_INVALID = 0x0,
     OTZ_SVC_GLOBAL,

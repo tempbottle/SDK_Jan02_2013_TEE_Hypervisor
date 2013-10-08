@@ -327,15 +327,19 @@ static u32 otz_smc(u32 cmd_addr)
 
 /**
  * @brief 
- *      call smc
+ *  call smc
+ *
  * @param svc_id  - service identifier
  * @param cmd_id  - command identifier
  * @param context - session context
  * @param enc_id - encoder identifier
+
  * @param cmd_buf - command buffer 
  * @param cmd_len - command buffer length
+
  * @param resp_buf - response buffer
  * @param resp_len - response buffer length
+
  * @param meta_data
  * @param ret_resp_len
  *
@@ -561,6 +565,8 @@ static int otz_client_service_init(otzc_dev_file* dev_file, int service_id)
     int ret_code = 0;
     otzc_service* svc_new;
     otzc_service* temp_pos;
+
+	// 세션을 관리하는 서비스 구조체를 할당한다.
     svc_new = (otzc_service*)kmalloc(sizeof(otzc_service), GFP_KERNEL);
     if(!svc_new){
         TERR("kmalloc failed \n");
@@ -581,8 +587,8 @@ static int otz_client_service_init(otzc_dev_file* dev_file, int service_id)
         goto clean_prev_malloc;
     }
 #endif
-
-    svc_new->service_id = service_id;
+	// 세션을 초기화한 서비스 구조체를 서비스관리 리스트에  연결한다.
+    svc_new->service_id = service_id;	// OTZ_SVC_VIRTUAL_KEYBOARD
     dev_file->service_cnt++;
     INIT_LIST_HEAD(&svc_new->sessions_list);
     list_add(&svc_new->head, &dev_file->services_list);
@@ -2065,6 +2071,7 @@ static int otz_client_open(struct inode *inode, struct file *file)
     int ret;
     otzc_dev_file *new_dev;
 
+	// 오픈을 할때마다 카운터를 올림.
     device_file_cnt++;
     file->private_data = (void*)device_file_cnt;
 
@@ -2082,10 +2089,11 @@ static int otz_client_open(struct inode *inode, struct file *file)
     new_dev->dev_shared_mem_head.shared_mem_cnt = 0;
     INIT_LIST_HEAD(&new_dev->dev_shared_mem_head.shared_mem_list);
 
-
+	// 서비스를 관리하는 dev_file을 전역 리스트에 추가
     list_add(&new_dev->head, &otzc_dev_file_head.dev_file_list);
     otzc_dev_file_head.dev_file_cnt++;
 
+	// 서비스에 따른  초기화-세션을 초기화한 서비스를  서비스 관리 리스트에 연결.
     if((ret = otz_client_service_init(new_dev, OTZ_SVC_GLOBAL)) != 0) {
         goto ret_func;
     } else if((ret = otz_client_service_init(new_dev, OTZ_SVC_ECHO)) != 0) {
