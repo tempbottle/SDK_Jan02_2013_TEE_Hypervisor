@@ -1,0 +1,21 @@
+var searchData=
+[
+  ['handleflags',['handleFlags',['../structTEE__ObjectInfo.html#a383259be1f2372c70d06179e323b56a9',1,'TEE_ObjectInfo']]],
+  ['handler',['handler',['../structtimer__event.html#a255eb37843c82205acb811f7c999558f',1,'timer_event']]],
+  ['handlestate',['handleState',['../struct____TEE__OperationInfo.html#a56c98435528db66a50ec6e8ad5344394',1,'__TEE_OperationInfo::handleState()'],['../struct____TEE__OperationHandle.html#abb1e51eff08ef2ad1022015a3b4184ac',1,'__TEE_OperationHandle::handleState()']]],
+  ['hdr',['hdr',['../structtag.html#a2225327c40d4b452bfb8c808609347c8',1,'tag']]],
+  ['head',['head',['../structsw__page__ref.html#a3aa04d467aea921d469aa0173b4ab0d9',1,'sw_page_ref::head()'],['../structacl__device.html#a10961066cc0450128467a39e5a386443',1,'acl_device::head()'],['../structacl__group.html#a4e4d349495011ceef103f75baa3f2591',1,'acl_group::head()'],['../structacl__user.html#aea9e6c429d7c2265eae12a8d8e5a835e',1,'acl_user::head()'],['../structsw__file__operations.html#aaaf50e58027023e160bee8a0dd55d225',1,'sw_file_operations::head()'],['../structsw__task.html#aa679e731d8e5f121cb00d6356929e7a4',1,'sw_task::head()'],['../structsw__free__area.html#a548294b07a4e1bf0ac86475a882f864a',1,'sw_free_area::head()'],['../structsw__alloced__area.html#aab1808f7bc0cecb86f5966ca44e9bb8e',1,'sw_alloced_area::head()'],['../structwait__queue.html#a7db1af044a584ba1af88a21503d2963f',1,'wait_queue::head()'],['../sw__buddy_8h.html#a97a56df9c26e733777ccbf0bcc1a1df2',1,'head():&#160;sw_buddy.h']]],
+  ['head_5fref',['head_ref',['../structotz__shared__mem__t.html#ae57d14f3ca41a8b522ef8a8c98f60615',1,'otz_shared_mem_t::head_ref()'],['../structTEEC__SharedMemory.html#a04c50f42331105464d2eb3d66cc4e8eb',1,'TEEC_SharedMemory::head_ref()']]],
+  ['heap_5fend',['heap_end',['../syscalls_8c.html#ac78e2272e58a869b9432d2948b554424',1,'syscalls.c']]],
+  ['heap_5flow',['heap_low',['../syscalls_8c.html#a317e4fe6c62141455b1ce36715f04613',1,'syscalls.c']]],
+  ['heap_5fsize',['heap_size',['../structsw__heap.html#a26b39b389f5cf9e87565dccc5f1f1a6c',1,'sw_heap::heap_size()'],['../sw__buddy_8h.html#a58becee4da1c264266e29bfb43a452a4',1,'heap_size():&#160;sw_buddy.h']]],
+  ['heap_5fstart',['heap_start',['../structsw__heap.html#afc2f7c15f47ec77b2de5ee3e8a13cc7a',1,'sw_heap::heap_start()'],['../sw__buddy_8h.html#a936aeca6c70ac3b4d5e4993539283e3e',1,'heap_start():&#160;sw_buddy.h']]],
+  ['heap_5ftop',['heap_top',['../syscalls_8c.html#a8d688ec3392ccbd7e0995e0a977b96e1',1,'syscalls.c']]],
+  ['high',['high',['../structtag__serialnr.html#a219d8f59f9591953132cf388b65b7707',1,'tag_serialnr']]],
+  ['hk_5fan_5farray',['hk_an_array',['../structsw__heap.html#a07a637dada6d339931ee57af2d1f1a35',1,'sw_heap::hk_an_array()'],['../sw__buddy_8h.html#a0034923229faeb72d08b7ba571a43403',1,'hk_an_array():&#160;sw_buddy.h']]],
+  ['hk_5fan_5fcount',['hk_an_count',['../structsw__heap.html#a1a6be64aeae06a48f4b863431525258e',1,'sw_heap::hk_an_count()'],['../sw__buddy_8h.html#a0c28ffcd39f7f0b5b989870afa0a046a',1,'hk_an_count():&#160;sw_buddy.h']]],
+  ['hk_5ffn_5farray',['hk_fn_array',['../structsw__heap.html#a88852bd6fe7a12302ae5ed540424e98b',1,'sw_heap::hk_fn_array()'],['../sw__buddy_8h.html#a32c4fb4cf12e41c0204aee4a7f20ff70',1,'hk_fn_array():&#160;sw_buddy.h']]],
+  ['hk_5ffn_5fcount',['hk_fn_count',['../structsw__heap.html#abb07d40a7422ecff1008aae3507d386c',1,'sw_heap::hk_fn_count()'],['../sw__buddy_8h.html#aa54ba428f7ccf53806d22e721263f0a3',1,'hk_fn_count():&#160;sw_buddy.h']]],
+  ['hwp_5fflags1',['hwp_flags1',['../structElf__Options__Hw.html#ade844ca291219a4c2ddb9daa5ff7cdc1',1,'Elf_Options_Hw']]],
+  ['hwp_5fflags2',['hwp_flags2',['../structElf__Options__Hw.html#a4940c510ca6158e2ea1df247ffce5882',1,'Elf_Options_Hw']]]
+];

@@ -1,0 +1,25 @@
+var searchData=
+[
+  ['obj_5fvalues',['obj_values',['../structobj__values.html',1,'']]],
+  ['otz_5fclient_5fencode_5fcmd',['otz_client_encode_cmd',['../structotz__client__encode__cmd.html',1,'']]],
+  ['otz_5fdevice_5ft',['otz_device_t',['../structotz__device__t.html',1,'']]],
+  ['otz_5fenc_5fdec_5ft',['otz_enc_dec_t',['../structotz__enc__dec__t.html',1,'']]],
+  ['otz_5flogin_5ft',['otz_login_t',['../structotz__login__t.html',1,'']]],
+  ['otz_5fmem_5freference',['otz_mem_reference',['../structotz__mem__reference.html',1,'']]],
+  ['otz_5fmutex_5ftest_5fglobal',['otz_mutex_test_global',['../structotz__mutex__test__global.html',1,'']]],
+  ['otz_5foperation_5ft',['otz_operation_t',['../structotz__operation__t.html',1,'']]],
+  ['otz_5fproperty_5fname_5ft',['otz_property_name_t',['../structotz__property__name__t.html',1,'']]],
+  ['otz_5fproperty_5ft',['otz_property_t',['../structotz__property__t.html',1,'']]],
+  ['otz_5fsecure_5fencode_5fcmd',['otz_secure_encode_cmd',['../structotz__secure__encode__cmd.html',1,'']]],
+  ['otz_5fsecure_5fencode_5fctx',['otz_secure_encode_ctx',['../structotz__secure__encode__ctx.html',1,'']]],
+  ['otz_5fsession_5fshared_5fmem_5finfo',['otz_session_shared_mem_info',['../structotz__session__shared__mem__info.html',1,'']]],
+  ['otz_5fsession_5ft',['otz_session_t',['../structotz__session__t.html',1,'']]],
+  ['otz_5fshared_5fmem_5ft',['otz_shared_mem_t',['../structotz__shared__mem__t.html',1,'']]],
+  ['otz_5fsmc_5fcdata',['otz_smc_cdata',['../structotz__smc__cdata.html',1,'']]],
+  ['otz_5fsmc_5fcmd',['otz_smc_cmd',['../structotz__smc__cmd.html',1,'']]],
+  ['otz_5ftimelimit_5ft',['otz_timelimit_t',['../structotz__timelimit__t.html',1,'']]],
+  ['otz_5fuuid_5ft',['otz_uuid_t',['../structotz__uuid__t.html',1,'']]],
+  ['otzc_5fencode_5fmeta',['otzc_encode_meta',['../structotzc__encode__meta.html',1,'']]],
+  ['otzc_5fnotify_5fdata',['otzc_notify_data',['../structotzc__notify__data.html',1,'']]],
+  ['our_5fdata_5fbuffer',['our_data_buffer',['../structour__data__buffer.html',1,'']]]
+];

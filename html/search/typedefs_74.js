@@ -1,0 +1,27 @@
+var searchData=
+[
+  ['tee_5fbigint',['TEE_BigInt',['../otz__tee__arith__api_8h.html#ac64a41129d2bfe9da71b02ba390281ba',1,'otz_tee_arith_api.h']]],
+  ['tee_5fbigintfmm',['TEE_BigIntFMM',['../otz__tee__arith__api_8h.html#a3d068db3968cc09a028f4deedfcd7902',1,'otz_tee_arith_api.h']]],
+  ['tee_5fbigintfmmcontext',['TEE_BigIntFMMContext',['../otz__tee__arith__api_8h.html#ad9118710b318fcb2997ef521957886b9',1,'otz_tee_arith_api.h']]],
+  ['tee_5fcrypto_5falgorithm_5fid',['TEE_CRYPTO_ALGORITHM_ID',['../otz__tee__crypto__api_8h.html#a8f3cb279b6a1eee97d881eb723f41dc1',1,'otz_tee_crypto_api.h']]],
+  ['tee_5fobjectenumhandle',['TEE_ObjectEnumHandle',['../otz__tee__internal__storage__api_8h.html#a93a3db41b30eea0eefe104eea3e81c4d',1,'otz_tee_internal_storage_api.h']]],
+  ['tee_5fobjecthandle',['TEE_ObjectHandle',['../otz__api_8h.html#a6a2cfeba38a0f61d5937bcc8cf04b9a2',1,'otz_api.h']]],
+  ['tee_5fobjecthandlevar',['TEE_ObjectHandleVar',['../otz__tee__crypto__api_8h.html#a749354c101c70b7d2982887fb045f147',1,'otz_tee_crypto_api.h']]],
+  ['tee_5foperation_5fconstants',['TEE_Operation_Constants',['../otz__tee__crypto__api_8h.html#a977dc673947c738e214471a4b93f5164',1,'otz_tee_crypto_api.h']]],
+  ['tee_5foperationhandle',['TEE_OperationHandle',['../otz__tee__crypto__api_8h.html#a003ccda0ce6a2d7889b2933a201e2bd1',1,'otz_tee_crypto_api.h']]],
+  ['tee_5foperationhandlevar',['TEE_OperationHandleVar',['../otz__tee__crypto__api_8h.html#a8a9e6733a99416c50eb974ddc0859d3b',1,'otz_tee_crypto_api.h']]],
+  ['tee_5foperationinfo',['TEE_OperationInfo',['../otz__tee__crypto__api_8h.html#a383943b4a1fe4288e8247a834e7faf52',1,'otz_tee_crypto_api.h']]],
+  ['tee_5foperationmode',['TEE_OperationMode',['../otz__tee__crypto__api_8h.html#a358014d8844dd09ea1b36d76a7cbfafd',1,'otz_tee_crypto_api.h']]],
+  ['tee_5fresult',['TEE_Result',['../otz__tee__api_8h.html#aa1b64b7b46cd8040d03cb32c6504796a',1,'TEE_Result():&#160;otz_tee_api.h'],['../otz__tee__arith__api_8h.html#aa1b9e65a4773f63ab909cbd1191e3a6c',1,'TEE_Result():&#160;otz_tee_arith_api.h']]],
+  ['tee_5fvalid_5ftag_5flengths',['TEE_Valid_Tag_Lengths',['../otz__tee__crypto__api_8h.html#a6dc7a5a8c06e38758bb4fbfcb222ef04',1,'otz_tee_crypto_api.h']]],
+  ['teec_5fcontext',['TEEC_Context',['../otz__tee__client__api_8h.html#a29b1302fc4bfe8f37a529e0b47680450',1,'otz_tee_client_api.h']]],
+  ['teec_5foperation',['TEEC_Operation',['../otz__tee__client__api_8h.html#a4c30c4c5327b8e2dc61ef9006b66a8a8',1,'otz_tee_client_api.h']]],
+  ['teec_5fregisteredmemoryreference',['TEEC_RegisteredMemoryReference',['../otz__tee__client__api_8h.html#a94fdd74a8f7a005dfdac70ab38670f41',1,'otz_tee_client_api.h']]],
+  ['teec_5fresult',['TEEC_Result',['../otz__tee__api_8h.html#a3ec91191e41143191768095734b3454e',1,'otz_tee_api.h']]],
+  ['teec_5fsession',['TEEC_Session',['../otz__tee__client__api_8h.html#a5cc1338f1a154a28620da49cef4aa2ee',1,'otz_tee_client_api.h']]],
+  ['teec_5fsharedmemory',['TEEC_SharedMemory',['../otz__tee__client__api_8h.html#a41a80a32a4e5d167a501a02bb73155b2',1,'otz_tee_client_api.h']]],
+  ['teec_5ftempmemoryreference',['TEEC_TempMemoryReference',['../otz__tee__client__api_8h.html#a1501ab7c9fa4f0e910683d5a37080a32',1,'otz_tee_client_api.h']]],
+  ['teec_5fuuid',['TEEC_UUID',['../otz__tee__client__api_8h.html#a361ded2dff83f4a00e85cdc7c8a04274',1,'otz_tee_client_api.h']]],
+  ['teec_5fvalue',['TEEC_Value',['../otz__tee__client__api_8h.html#abe8a2b29a8828e8d074a3df1a6227542',1,'otz_tee_client_api.h']]],
+  ['touch',['touch',['../touch__manager_8h.html#a9a97ea21bcb649ed6119f6ff47ec4761',1,'touch_manager.h']]]
+];

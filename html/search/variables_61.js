@@ -1,0 +1,25 @@
+var searchData=
+[
+  ['a',['a',['../structTEE__Attribute.html#ad9856740dc29f94abf5b33df1936cbc3',1,'TEE_Attribute::a()'],['../structTEEC__Value.html#a9092e5e087843ebfc5d7cfa40f04a1c2',1,'TEEC_Value::a()']]],
+  ['a_5ftype',['a_type',['../structElf32__auxv__t.html#a7959bef33d34a873e084f7f009c7ce7d',1,'Elf32_auxv_t::a_type()'],['../structElf64__auxv__t.html#af1ebe8d79cec499d7fdf051a50a098ad',1,'Elf64_auxv_t::a_type()']]],
+  ['a_5fun',['a_un',['../structElf32__auxv__t.html#a4080d8fe1d0ebef400c2c8a37c250494',1,'Elf32_auxv_t::a_un()'],['../structElf64__auxv__t.html#a26c53f67c01922e88a61adce34dc9a80',1,'Elf64_auxv_t::a_un()']]],
+  ['a_5fval',['a_val',['../structElf32__auxv__t.html#aab93c3d637ac311f7c9357f28c215fe7',1,'Elf32_auxv_t::a_val()'],['../structElf64__auxv__t.html#a830eb96569b7b6dda7a228847be29ddd',1,'Elf64_auxv_t::a_val()']]],
+  ['aadlen',['aadLen',['../struct____TEE__OperationHandle.html#abebcbaf39795d039ed2361f23382ade8',1,'__TEE_OperationHandle']]],
+  ['abort_5fstack',['abort_stack',['../cpu__data_8h.html#a37290e8eaf6c0a9d26881685ec8e2463',1,'cpu_data.h']]],
+  ['acl',['acl',['../structsw__task.html#add4cf0dd64f20e30376a5b358a4825d6',1,'sw_task']]],
+  ['acorn',['acorn',['../structtag.html#ab3393d60d0d8c81385908f7e260e7f77',1,'tag']]],
+  ['active',['active',['../structtimer__clock__info.html#a297fe3a0fc7efdc467d0b534bd5c8aae',1,'timer_clock_info']]],
+  ['active_5ftextbox',['active_textbox',['../structobj__values.html#a4931ff1ae838ac912f3c13558ce568d8',1,'obj_values::active_textbox()'],['../structtouch__info.html#a9940555293b0a58181e9519492999630',1,'touch_info::active_textbox()']]],
+  ['active_5ftf',['active_tf',['../virtual__keyboard__app_8c.html#a24cea51f251916ce7d0f00e05f175299',1,'virtual_keyboard_app.c']]],
+  ['addr',['addr',['../structkernel__symbol.html#a54e469ce43d8ebe08dc3fbc0c05a4307',1,'kernel_symbol']]],
+  ['adfsdrives',['adfsdrives',['../structtag__acorn.html#aebf372338e4c616cd688de453fb4ad35',1,'tag_acorn']]],
+  ['algorithm',['algorithm',['../struct____TEE__OperationInfo.html#a062c53ebd215bedbf36f03cd4ae4cf1d',1,'__TEE_OperationInfo::algorithm()'],['../struct____TEE__OperationHandle.html#a4750f19edd1529680f9899db1da0f445',1,'__TEE_OperationHandle::algorithm()']]],
+  ['allocated',['allocated',['../structTEEC__SharedMemory.html#af662eccaf65008ef806549dda52368f1',1,'TEEC_SharedMemory']]],
+  ['amount',['amount',['../keyboard__keys_8h.html#a16462c67573e3321dd955fcefdf78031',1,'amount():&#160;keyboard_offkeys.c'],['../keyboard__offkeys_8c.html#a16462c67573e3321dd955fcefdf78031',1,'amount():&#160;keyboard_offkeys.c']]],
+  ['ap',['ap',['../structcpu__section.html#a2842a077a6d8d757c42101cdf57a878e',1,'cpu_section']]],
+  ['attr',['attr',['../structfile__stat.html#ab4e183f1088343f9c2f9f357d9b31ece',1,'file_stat']]],
+  ['attribute',['Attribute',['../struct____TEE__ObjectHandle.html#ac51cea6af1591cd4cc7c594b329a697e',1,'__TEE_ObjectHandle']]],
+  ['attributeid',['attributeID',['../structTEE__Attribute.html#a4a6cd490e3ac839612e6d7915230e83c',1,'TEE_Attribute']]],
+  ['attributeslen',['attributesLen',['../struct____TEE__ObjectHandle.html#a976741e5b268e65194f93c831799e2a5',1,'__TEE_ObjectHandle']]],
+  ['aui_5fclock_5fseq_5fand_5fnode',['aui_clock_seq_and_node',['../structotz__uuid__t.html#a1ebb7b70dff6b69faa856419d3cd8c58',1,'otz_uuid_t']]]
+];

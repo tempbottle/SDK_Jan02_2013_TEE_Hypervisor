@@ -1,0 +1,21 @@
+var searchData=
+[
+  ['g_5fbuffer',['g_buffer',['../secure__boot_8c.html#aaaea2f1fd637f153663ab0db369ecf7e',1,'secure_boot.c']]],
+  ['g_5fdispatch_5fdata',['g_dispatch_data',['../dispatcher__task_8c.html#a7d2aec2583f39a383f9bfdd4f4696eb9',1,'dispatcher_task.c']]],
+  ['g_5fframebuff',['g_framebuff',['../sw__fb_8c.html#af5cb3c2124161370dd145f833c6ceed5',1,'sw_fb.c']]],
+  ['gic_5ficdiser',['gic_icdiser',['../structgic__context.html#a58f546f0c24ab9d207ce5a88730feb1d',1,'gic_context']]],
+  ['gid',['gid',['../structacl__group.html#aab5c2bcae28681de910e4f97f5a4ad5b',1,'acl_group::gid()'],['../structuser__access__control.html#aa6b54864f82bec4a873af166ef484d02',1,'user_access_control::gid()']]],
+  ['global_5fval',['global_val',['../global_8c.html#a2a711ca66f66e43369bd71b5d6533fbd',1,'global_val():&#160;global.c'],['../global_8h.html#a2a711ca66f66e43369bd71b5d6533fbd',1,'global_val():&#160;global.c']]],
+  ['green_5fpos',['green_pos',['../structtag__videolfb.html#a01863e1f1e6a068c032b8cf8df0b9057',1,'tag_videolfb']]],
+  ['green_5fsize',['green_size',['../structtag__videolfb.html#a366f8e6fb049f647a51a9a2a770523ef',1,'tag_videolfb']]],
+  ['group_5fhead',['group_head',['../structacl__device.html#a8d29d3e3b6bd986622ab2b744fc58569',1,'acl_device']]],
+  ['gt_5fbytes',['gt_bytes',['../unionElf32__gptab.html#a1af9c483170a1b9e966d4c728934c7e0',1,'Elf32_gptab']]],
+  ['gt_5fcurrent_5fg_5fvalue',['gt_current_g_value',['../unionElf32__gptab.html#a89ae523fa83704dc11651942f14b23f3',1,'Elf32_gptab']]],
+  ['gt_5fentry',['gt_entry',['../unionElf32__gptab.html#a59692c7d74684ad7ef7e4b7a95620eab',1,'Elf32_gptab']]],
+  ['gt_5fg_5fvalue',['gt_g_value',['../unionElf32__gptab.html#a5c6035560c772d9b020e5110dbb435b8',1,'Elf32_gptab']]],
+  ['gt_5fheader',['gt_header',['../unionElf32__gptab.html#ae581965eefc1eb6e96ca6755ad52357a',1,'Elf32_gptab']]],
+  ['gt_5funused',['gt_unused',['../unionElf32__gptab.html#aefa9e4dcc4bff4e59999b01f0bc790bf',1,'Elf32_gptab']]],
+  ['guest_5fno',['guest_no',['../structsystem__context.html#abaa5314fa254317d5d7352de34e76be7',1,'system_context::guest_no()'],['../system__context_8h.html#aca6a0c19f9fbae4758ea13d510a5ea4a',1,'guest_no():&#160;system_context.h']]],
+  ['gui_5finfo',['gui_info',['../gui__manager_8h.html#a06790347df0e783fef0d27ee2821e597',1,'gui_manager.h']]],
+  ['gui_5fopen',['gui_open',['../gui__manager_8c.html#acddcbc2321b1f8f5aac9ca0cd3195abe',1,'gui_open():&#160;gui_manager.c'],['../gui__manager_8h.html#acddcbc2321b1f8f5aac9ca0cd3195abe',1,'gui_open():&#160;gui_manager.c']]]
+];

@@ -1,0 +1,20 @@
+var searchData=
+[
+  ['cache_5fline_5fsize',['CACHE_LINE_SIZE',['../cache-l2x0_8c.html#af89f60b07247176687889ade776c8e10',1,'cache-l2x0.c']]],
+  ['cache_5fwait',['cache_wait',['../cache-l2x0_8c.html#ae22262e86458af1456fdcdf5103bd9de',1,'cache-l2x0.c']]],
+  ['cacheline_5fsize',['CACHELINE_SIZE',['../cpu_8h.html#ae05da5eff6babaf91257a4accdf8e0b6',1,'cpu.h']]],
+  ['call_5ftrustzone_5fapi',['CALL_TRUSTZONE_API',['../smc__id_8h.html#ab2a2cc9f9983cdf01f6b80c3ee0ca519',1,'smc_id.h']]],
+  ['carriage_5freturn',['CARRIAGE_RETURN',['../sw__debug_8h.html#a3b81478c7058ceb6ed610ce8e2ca3822',1,'sw_debug.h']]],
+  ['check_5fsum_5foff',['CHECK_SUM_OFF',['../fat32_8h.html#ad044f38d619118a3cebd14c359bd0a95',1,'fat32.h']]],
+  ['cipher_5fdecrypt',['CIPHER_DECRYPT',['../otz__id_8h.html#a3172fa2a48d53b5b6e15727d4e2d88aa',1,'otz_id.h']]],
+  ['cipher_5fencrypt',['CIPHER_ENCRYPT',['../otz__id_8h.html#a4fbc74523d82c7b2953bfc61091d8bb3',1,'otz_id.h']]],
+  ['clear_5ficache',['clear_icache',['../cpu_8h.html#ad693e5b005f33ec3c2acd0a29f7d97ba',1,'cpu.h']]],
+  ['common_5fheap_5fid',['COMMON_HEAP_ID',['../sw__buddy_8h.html#aec6635083e97f6d7929adfe2179dabdc',1,'sw_buddy.h']]],
+  ['compile_5ftime_5fassert',['COMPILE_TIME_ASSERT',['../sw__assert_8h.html#a4242a4e6d62222704b2c4f94b4a71bd0',1,'sw_assert.h']]],
+  ['config_5fbuddy_5fhouse_5fkeeping_5fpercent',['CONFIG_BUDDY_HOUSE_KEEPING_PERCENT',['../sw__buddy_8h.html#a125518740dd3a69d89abdced73f508aa',1,'sw_buddy.h']]],
+  ['config_5fbuddy_5fmax_5fblock_5fsize_5fshift',['CONFIG_BUDDY_MAX_BLOCK_SIZE_SHIFT',['../sw__buddy_8h.html#a6718c03c6cf59295af6af0b07209e0b3',1,'sw_buddy.h']]],
+  ['config_5fbuddy_5fmin_5fblock_5fsize_5fshift',['CONFIG_BUDDY_MIN_BLOCK_SIZE_SHIFT',['../sw__buddy_8h.html#a7e270327733c4fc8066e45b4da5d2e02',1,'sw_buddy.h']]],
+  ['cpacr_5freg_5fval',['CPACR_REG_VAL',['../Cortex-A15_2include_2sw__platform__asm_8h.html#ac114cc2e96047148806753e490972c8f',1,'CPACR_REG_VAL():&#160;sw_platform_asm.h'],['../Cortex-A8_2include_2sw__platform__asm_8h.html#ac114cc2e96047148806753e490972c8f',1,'CPACR_REG_VAL():&#160;sw_platform_asm.h'],['../Cortex-A9_2include_2sw__platform__asm_8h.html#ac114cc2e96047148806753e490972c8f',1,'CPACR_REG_VAL():&#160;sw_platform_asm.h']]],
+  ['cpsr_5freset_5fval',['CPSR_RESET_VAL',['../cpu__asm_8h.html#afd88899a40c2e7acf9115baa3323c6ce',1,'cpu_asm.h']]],
+  ['crypt_5fbuf_5flen',['CRYPT_BUF_LEN',['../otz__app__eg_8h.html#aa7279135056dc7d5c96cc617ab242d93',1,'otz_app_eg.h']]]
+];

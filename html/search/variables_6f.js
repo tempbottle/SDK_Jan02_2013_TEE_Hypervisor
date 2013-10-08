@@ -1,0 +1,28 @@
+var searchData=
+[
+  ['obj_5fcolor',['obj_color',['../structobj__values.html#a00ae6759dd254e16dfbd1415fadd575e',1,'obj_values']]],
+  ['obj_5fcoord',['obj_coord',['../structobj__values.html#afa6b5c6fec248e99558eb39123cc409b',1,'obj_values']]],
+  ['obj_5fcount',['obj_count',['../structobj__values.html#ae6c0c1db710f73ef8364a52feaff07e5',1,'obj_values']]],
+  ['obj_5fheight',['obj_height',['../structobj__values.html#a82f3964265406069e5a59524e59e5eb0',1,'obj_values']]],
+  ['obj_5fid',['obj_id',['../structobj__values.html#ac1eace40b4f4c1a8637d24925e5f83ee',1,'obj_values']]],
+  ['obj_5fstr',['obj_str',['../structobj__values.html#a14855988874b8b942eea3063556c1a8f',1,'obj_values']]],
+  ['obj_5ftype',['obj_type',['../structobj__values.html#abea9d794857a080fd1e9f0a4befc5c37',1,'obj_values']]],
+  ['obj_5fval',['obj_val',['../gui__manager_8h.html#a29b8155a02ddfa10f563796151f5fc90',1,'gui_manager.h']]],
+  ['obj_5fwidth',['obj_width',['../structobj__values.html#a721d9a5bac69ba4b3a7c06d14cf50590',1,'obj_values']]],
+  ['obj_5fx',['obj_x',['../structobj__values.html#a36f3c5ab32e856dc9abc2f9ee76c0409',1,'obj_values']]],
+  ['obj_5fy',['obj_y',['../structobj__values.html#a7f571dc5a724053e077cb5cf62b035ae',1,'obj_values']]],
+  ['objectinfo',['ObjectInfo',['../struct____TEE__ObjectHandle.html#a9977edea87d3953156d97ddef1237ad6',1,'__TEE_ObjectHandle']]],
+  ['objectsize',['objectSize',['../structTEE__ObjectInfo.html#ae1030668d95126537c787c6041116141',1,'TEE_ObjectInfo']]],
+  ['objecttype',['objectType',['../structTEE__ObjectInfo.html#abdc9a52757555fcde7fd65d0a666dd86',1,'TEE_ObjectInfo']]],
+  ['objectusage',['objectUsage',['../structTEE__ObjectInfo.html#acf38e3c3b3b94d174b5cc4bcc4c05e73',1,'TEE_ObjectInfo']]],
+  ['offset',['offset',['../structotz__mem__reference.html#ac84a349830e146ab101bb365437f0e41',1,'otz_mem_reference::offset()'],['../structotz__client__encode__cmd.html#afb02027737a6491d2e520e2ed77672a6',1,'otz_client_encode_cmd::offset()'],['../structTEEC__RegisteredMemoryReference.html#a8951871c92918826408dfedc4156ee20',1,'TEEC_RegisteredMemoryReference::offset()']]],
+  ['on_5frelease',['on_release',['../structevent.html#ae42d0674d92c2c686012a3cb7a1b1087',1,'event']]],
+  ['on_5ftouch',['on_touch',['../structevent.html#ae849b72b4171c97dcfa2066fd09fa518',1,'event']]],
+  ['open',['open',['../structsw__file__operations.html#a12d8f547f933053bcf3dd097b3e9f0ab',1,'sw_file_operations']]],
+  ['operation_5fcnt',['operation_cnt',['../structTEEC__Session.html#ae21202e1d124456453722861aee399aa',1,'TEEC_Session']]],
+  ['operation_5fcount',['operation_count',['../structotz__session__t.html#a71114b71bb3794410ecd938bc62a441d',1,'otz_session_t::operation_count()'],['../structotz__shared__mem__t.html#a76fc2ab1afa5c6f640177196fbe7427e',1,'otz_shared_mem_t::operation_count()'],['../structTEEC__SharedMemory.html#af5682d369305070e83514a18cc2a2260',1,'TEEC_SharedMemory::operation_count()']]],
+  ['operationclass',['operationClass',['../struct____TEE__OperationInfo.html#ac1398f31c470d8d04a901acfc25aceb1',1,'__TEE_OperationInfo::operationClass()'],['../struct____TEE__OperationHandle.html#aabd85e41a59abec4e8ba16147636a982',1,'__TEE_OperationHandle::operationClass()']]],
+  ['ord_5ffield',['ord_field',['../structlfn__entry.html#a6a7d237bedaf362e49615bb6177adad7',1,'lfn_entry']]],
+  ['orientation',['orientation',['../structgui__info.html#a25a1ce72a54407a2ab34385125eab9e3',1,'gui_info']]],
+  ['outputfromov',['outputfromOV',['../classcom_1_1example_1_1testov_1_1JniInterface.html#abf72420b61dbb25f4e862f16dd399dae',1,'com::example::testov::JniInterface']]]
+];
